@@ -1,0 +1,36 @@
+.status-display {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.status-message {
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #28a745; 
+    border: 1px solid darkgreen;
+}
+
+.error {
+    background-color: #dc3545; 
+    border: 1px solid darkred;
+}
+
+.no-transactions {
+    color: #6c757d; 
+    font-style: italic;
+}
+
+.status-message:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
