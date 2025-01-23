@@ -1,0 +1,12 @@
+[package]
+name = "IBT"
+version = "0.0.1"
+authors = ["sergi"]
+license = "Apache-2.0"
+
+[addresses]
+sui = "0x2"
+IBT = "0x0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
